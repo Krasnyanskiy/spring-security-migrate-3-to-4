@@ -1,0 +1,16 @@
+plugins {
+    id 'org.asciidoctor.convert' version '1.5.2'
+}
+
+asciidoctor {
+    attributes  'toc2':'top',
+                'icons': 'font',
+                'source-highlighter': 'prettify',
+                'setanchors':'true',
+                'sectanchors':'true',
+                'idprefix':'',
+                'idseparator':'-',
+                'docinfo1':'true',
+
+                'spring-security-docs-url':'http://docs.spring.io/spring-security/site/docs/3.2.x/reference/htmlsingle/#'
+}
